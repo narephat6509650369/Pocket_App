@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_size_large">38dp</dimen>
+    <dimen name="text_large">28sp</dimen>
+    <dimen name="text_medium">22sp</dimen>
+    <dimen name="text_small">20sp</dimen>
+    <dimen name="text_size_small">10dp</dimen>
+    <dimen name="text_size_twenty">20dp</dimen>
+    <dimen name="text_size_medium">16dp</dimen>
+    <dimen name="text_size_large">30dp</dimen>#23
+    <dimen name="w1_size">1dp</dimen>
+    <dimen name="raduis_size">500dp</dimen>
+    <dimen name="text_size_icons">50dp</dimen>
+    <dimen name="text_size_hundred">100dp</dimen>
+    <dimen name="text_size_fortyeight">48dp</dimen>
+    <dimen name="text_size_eight">8dp</dimen>
+    <dimen name="text_size_three">3dp</dimen>
+    <dimen name="setzero">0dp</dimen>
+    <dimen name="text_size_thirty">30dp</dimen>
+    <dimen name="text_size_five">30dp</dimen>
+    <dimen name="text_size_hundredtwe">120dp</dimen>
+    <dimen name="text_size_hundredeleven">110dp</dimen>
+    <dimen name="text_size_twele">12dp</dimen>
+    <dimen name="text_size_sixty">60dp</dimen>
+    <dimen name="text_size_hunsixtyeig">168dp</dimen>
+</resources>

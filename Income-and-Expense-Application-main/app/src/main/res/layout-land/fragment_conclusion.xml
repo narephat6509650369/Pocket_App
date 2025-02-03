@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/text_size_medium"
+    android:gravity="center"
+    tools:context=".ConclusionFragment">
+
+    <!-- Title for the Conclusion -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/conclusionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_size_twenty"
+                android:text="@string/summary_of_expenses"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/text_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/conclusionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_size_small"
+                android:text="@string/loading"
+                android:textSize="@dimen/text_small" />
+
+            <TextView
+                android:id="@+id/selectedDateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_size_small"
+                android:text="@string/selected_date"
+                android:textSize="@dimen/text_size_medium" />
+
+            <ImageView
+                android:id="@+id/statusImageView"
+                android:layout_width="@dimen/text_size_hundred"
+                android:layout_height="@dimen/text_size_hundred"
+                android:layout_marginTop="@dimen/text_size_twenty"
+                android:layout_marginBottom="@dimen/text_size_twenty"
+                android:contentDescription="@string/status_image" />
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_small"
+                android:background="@drawable/button_background"
+                android:text="@string/back"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Display the Daily Total Spending -->
+
+    <!-- Display the Selected Date -->
+
+    <!-- Add a Button to go back -->
+</LinearLayout>
